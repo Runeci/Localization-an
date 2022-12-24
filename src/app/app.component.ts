@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'localize';
+
+  localeList = [
+    {code: 'es-US', label: 'En'},
+    {code: 'ru', label: 'Ru'},
+  ]
 }
